@@ -96,6 +96,10 @@ body {
   margin-bottom: 10px;
 }
 
+.stat__number--limit {
+  color: red;
+}
+
 .second-heading {
   font-size: 14px;
   text-transform: uppercase;
@@ -136,4 +140,8 @@ body {
     flex-direction: column;
     justify-content: center;
   }
+}
+
+.limit-exceed-warning{
+  color: red;
 }
