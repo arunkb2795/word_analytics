@@ -15,12 +15,40 @@
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css" />
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     <title>Word Analytics</title>
 </head>
 
 <body>
-    Test
+    <div class="background"></div>
+    <h1 class="first-heading">
+        Word <span class="first-heading--special">Analytics</span>
+    </h1>
+    <div class="container">
+        <textarea class="textarea" spellcheck="false" placeholder="Enter your text"></textarea>
+        <section class="stats">
+            <section class="stat">
+                <span class="stat__number stat__number--words">0</span>
+                <h2 class="second-heading">Words</h2>
+            </section>
+            <section class="stat">
+                <span class="stat__number stat__number--characters">0</span>
+                <h2 class="second-heading">Characters</h2>
+            </section>
+            <section class="stat">
+                <span class="stat__number stat__number--twitter">280</span>
+                <h2 class="second-heading">Twitter</h2>
+            </section>
+            <section class="stat">
+                <span class="stat__number stat__number--facebook">2200</span>
+                <h2 class="second-heading">Facebook</h2>
+            </section>
+        </section>
+    </div>
+    <footer class="footer">
+        <small class="copyight">&copy; Copyright by ByteGrad. All right reserved</small>
+        <small class="data">Last checked limits : 17 days ago</small>
+    </footer>
 </body>
 
 </html>
